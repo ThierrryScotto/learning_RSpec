@@ -24,6 +24,16 @@ describe 'Car' do
     expect(car.wheels).to eq(4)
   end
 
+  it "allow reading for wheels" do
+    skip('This test will be skip')
+    car = Car.new
+    expect(car.wheels).to eq(4)
+  end
+
+  xit 'this test will be skip too'
+
+  it 'this is a pending status'
+
   describe '.colors' do
     it "Returns an array of color names" do
       c = ['blue', 'black', 'red', 'green']

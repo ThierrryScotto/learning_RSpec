@@ -11,3 +11,7 @@ rspec <file_path> -f d
 
 command to stop when there is a error
 rspec <file_path> --fail-fast
+
+equal? and eql? | this is function not are the same thing:
+equal: compare to see if the object is ta same object
+eql: see the information inside in the variable
